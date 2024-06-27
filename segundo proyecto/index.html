@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Envío</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form method="post">
+        <h2>calcular propina</h2>
+        <p>ingrese el total de su factura el 
+            porcentaje de propina que desea dar
+        </p>
+        <label for="nombre">ingrese el total de su factura:</label>
+        <input type="number" id="factura"  placeholder="0.00" title="total de la factura">
+        <br><br>
+        <label for="nombre">ingrese el porcentaje de propina</label>
+        <input type="number" id="propina" placeholder="0.00" title="porcentaje de propina">
+        <br><br>
+        <button type="submit">calcular</button>
+        <h4>total: <b id="total">0.00</b></h4>
+    </form>
+<script src="index.js"></script>
+</body>
+</html>
