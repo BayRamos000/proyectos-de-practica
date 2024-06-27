@@ -31,13 +31,13 @@ input[type="text"] {
 
 button {
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #2c8d2f;
     color: white;
-    border: none;
-    border-radius: 4px;
+    border: 3px solid;
+    border-radius: 15px;
     cursor: pointer;
     margin-left: 25%;
-    width: 100px;
+    width: 180px;
 }
 
 button:hover {
