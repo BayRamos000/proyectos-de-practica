@@ -1,0 +1,19 @@
+body {
+    font-family: arial;
+    padding: 200px;
+}
+
+#contenedor {
+    text-align: center;
+    background: grey;
+    padding: 30px;
+}
+
+#cumpleaños {
+    width: 150px;
+}
+
+button {
+    background-color: rebeccapurple; 
+    color: aliceblue;   
+}
