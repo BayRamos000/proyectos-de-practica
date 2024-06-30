@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.temporizador {
+    text-align: center;
+}
+
+#tiempo {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#inicio {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 20px;
+}
+
+#pausa {
+    background-color: #f39c12;
+    color: white;
+    border-radius: 20px;
+}
+
+#reinicio {
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 20px;
+}
