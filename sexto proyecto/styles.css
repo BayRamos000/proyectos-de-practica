@@ -1,0 +1,29 @@
+body {
+    font-family: arial sans-serif;
+    background: rgba(90, 90, 5, 0.397);
+    text-align: center;
+    padding-top: 100px;
+}
+
+.botones {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #9e4caf;
+    border: 2px solid;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+p{
+    font-size: 25px; 
+}

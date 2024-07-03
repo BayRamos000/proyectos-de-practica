@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>piedra papel tejera</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Juego de piedra, papel o tijera</h1>
+    <h2>Elija su movimiento</h2>
+    <div class="botones">
+        <button id="piedra"  onclick="comenzar(this.id)">&#x1F44A</button>
+        <button id="papel"   onclick="comenzar(this.id)">&#x1f590</button>
+        <button id="tijera"  onclick="comenzar(this.id)">&#x270c</button>
+    </div>
+    <p id="resultado"><b></b></p>
+    <p id="puntos">
+        Tu puntuacion: <span id="yo"><b>0</b></span>
+        Puncuacion de la compu: <span id="compu"><b>0</b></span>
+        Empate: <span id="empate"><b>0</b></span>
+    </p>
+
+    <script src="index2.js"></script>
+</body>
+</html>
