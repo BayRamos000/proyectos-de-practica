@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    padding-top: 200px;
+    background-color: rgb(26, 2, 48);
+}
+
+#tiempo {
+    font-size: 6em;
+    padding-bottom: 20px;
+    color: rgb(10, 184, 140);
+}
+
+button{
+    font-size: 40px;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: rgb(9, 151, 33);
+    margin: 20px;
+    padding: 10px;
+}
+
+button:hover{
+    box-shadow: 0 0 50px rgb(95, 204, 6);
+}
+
+#inicio:focus {
+    box-shadow: 0 0 50px yellow;
+}
