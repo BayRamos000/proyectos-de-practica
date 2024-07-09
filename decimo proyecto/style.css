@@ -1,0 +1,53 @@
+body{
+    background: rgb(51, 3, 97);
+}
+
+.activo.contenedor2 {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.activo.contenedor3 {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.activo.contenedor1{
+    visibility: hidden;
+    opacity: 0;
+}
+.contenedor {
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+img{
+    width: 300px;
+    position: absolute;
+    left: 250px;
+    border: 3px solid;
+}
+
+.contenedor2{
+    position: relative;
+    top: -194px;
+    color: antiquewhite;
+}
+
+.contenedor3{
+    position: relative;
+    top: -333px;
+    color: rgb(184, 64, 64);
+} 
+
+button {
+    height: 40px;
+    width: 80px;
+    border-radius: 15px;
+    background: yellowgreen;
+    margin-left: 20px;
+    border-color: white;
+}
