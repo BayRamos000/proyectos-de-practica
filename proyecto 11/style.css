@@ -1,0 +1,32 @@
+body {
+    background: radial-gradient(circle at center bottom, rgb(2, 80, 56), rgb(76, 214, 191));
+    font-family: sans-serif;
+}
+
+.contenedor {
+    position: relative;
+    top: 200px;
+    left: 350px;
+    border: 2px solid;
+    width: 600px;
+    padding: 25px;
+    text-align: center;
+    background: rgb(5, 135, 139);
+    opacity: 20px;
+}
+
+label {
+    font-size: 25px;
+}
+
+input {
+    position: relative;
+    left: 120px;
+    font-size: 20px;
+
+}
+
+#fahrenheit {
+    position: relative;
+    left: 100px;
+}
