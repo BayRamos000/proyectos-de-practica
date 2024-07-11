@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+
+a img {
+    width: 60px;
+    margin-left: 20px;
+}
+
+.barra{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(167, 153, 153);
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(218, 5, 5, 0.3);
+    transition: background-color 0.4s;
+}
+
+.barra ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.barra ul li a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: rgb(31, 24, 24);
+    font-family: cursive;
+}
+
+.active {
+    background-color: black;
+}
+  
+.active ul li a {
+    color: white;
+}
+
+.tituloCentral {
+    background-image: url("https://th.bing.com/th/id/R.ee42f24de4a7e09cae4cefd566bd61c2?rik=lqIS7N5LCTg4oQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-jMnlYMpSz5Q%2fUOyz_OsALYI%2fAAAAAAABd3o%2fg7xwzJQ_D90%2fs1600%2fatardecer-en-las-playas-del-mar-arenas-blancas-2560x1600-sunset.jpg&ehk=tbjmdnSvdbzznl0aXb4En1BivVDkDrjMxdQVSRj560k%3d&risl=&pid=ImgRaw&r=0");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+.tituloCentral h1 {
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+    letter-spacing: 2px;
+} 
+
+.text {
+    margin: 50px;
+    font-family: sans-serif;
+  }
