@@ -1,0 +1,36 @@
+body {
+    font-family: cursive;
+    text-align: center;
+    background: grey;
+}
+
+.contenedor {
+    background: white;
+    width: 500px;
+    padding: 50px;
+    position: relative;
+    left: 25%;
+    margin-top: 10%;
+    border-radius: 20px;
+    box-shadow: 0px 10px 19px white;
+}
+
+input {
+    width: 80%;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+button {
+    width: 80%;
+    font-size: 25px;
+    font-family: cursive;
+    background: palevioletred;
+    border: none;
+}
+
+p {
+    position: relative;
+    left: 45%;
+    bottom: 20px;
+}
