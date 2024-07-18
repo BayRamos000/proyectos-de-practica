@@ -1,0 +1,26 @@
+body {
+    background: rgb(131, 5, 131);
+}
+
+.contenedor {
+    position: relative;
+    padding-right: 0;
+    margin-left: 40px;
+}
+
+img {
+    margin: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 12px black;
+}
+
+button {
+    height: 50px;
+    position: relative;
+    left: 43%;
+    border: none;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 15px;
+    background-color: rgb(8, 134, 61);
+}
