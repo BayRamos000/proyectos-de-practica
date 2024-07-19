@@ -1,0 +1,56 @@
+body {
+    background: rgb(0, 128, 43);
+    padding: 0px 30px 0px 30px;
+    font-family: cursive;
+}
+
+.contenedor {
+    background: rgb(218, 247, 199);
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.activo{
+    visibility: hidden;
+    opacity: 0;
+}
+
+#input {
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.boton {
+    visibility: hidden;
+}
+
+#boton {
+    width: 200px;
+    height: 40px;
+    font-family: cursive;
+    background-color: aqua;
+}
+
+#boton:hover{
+    background: rgb(103, 139, 139);
+    cursor: pointer;
+}
+
+#fotos {
+    padding-left: 200px;
+    padding-right: 90px;
+}
+
+img {
+    margin: 20px;
+    border: none;
+    border-radius: 20px;
+}
